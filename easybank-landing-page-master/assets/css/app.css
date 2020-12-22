@@ -1,0 +1,154 @@
+* {
+  box-sizing: border-box; }
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Public Sans', sans-serif;
+  font-size: 18px;
+  overflow-x: hidden; }
+.row{
+  padding: 2%;  
+}
+.navbar{
+    z-index: 1;
+}
+    
+  .intro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: url("../images/bg-intro-desktop.svg") #fafafa no-repeat;
+    background-position: 200% 0;
+    background-size: 80%;
+    background-attachment: fixed;
+     
+     
+    
+}
+     
+ .intro__content {
+      padding: 10%;
+      width: 50%;
+     letter-spacing: 20%;
+}
+     
+  footer{
+    width: 100%;
+    height: 200px;
+    background: hsl(233, 26%, 24%);
+  }
+
+  .footer_logo{
+    background: hsl(240, 17%, 95%);
+    width: 150px;
+    margin-left: 7%;
+    position: relative;
+    padding-bottom: 20px;
+  }
+  
+  .socialmediaicons{
+    margin-left: 7%;
+    position: relative;
+    padding-top: 50px;
+    letter-spacing: .1rem;
+  }
+  .pages{
+    position: absolute;
+    margin-top: -90px;
+    left: 35%;
+    display: flex;
+    list-style: none;
+  }
+  .pages li{
+    cursor: pointer;
+  }
+  .column1,.column2{
+    color: #fff;
+    line-height: 30px;
+    position: relative;
+    margin-right: 100px;
+  }
+  .footerrequestbtn{
+    right: 100px;
+    position: absolute;
+	  margin-top: -100px;
+  }
+  .rights{
+    right: 100px;
+    position: absolute;
+    margin-top: -50px;
+    font-size: small;
+  }
+  .btn-request {
+    display: inline-block;
+    padding: 0.65rem 1.3rem;
+    background: green;
+    background: linear-gradient(to right, #2ad763, #26b7d2);
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 30px; }
+    .btn-request:hover {
+      background: linear-gradient(to right, #88e3a6, #79d1dd); }
+@media screen and (max-width: 1000px){
+
+  
+    #request{
+	    display: none;
+    }
+   
+ 
+
+    footer{
+	width: 100%;
+	height: auto;
+	padding-bottom: 50px;
+    }
+    .footer_logo{
+	background: #fff;
+	width: auto;
+	margin-left: 0%;
+	text-align: center;
+    }
+    .socialmediaicons{
+    width: 90%;
+    text-align: center;
+    position: absolute;
+    margin-left: 5px;
+	left: 50%;
+	transform: translateX(-50%);
+	padding-top: 0px;
+	margin-top: 50px;
+    }
+    .pages{
+	position: relative;
+	margin-top: 100px;
+	left: 0%;
+	margin-left: 100px;
+	text-align: center;
+	list-style: none;
+	display: block;
+    }
+    .footerrequestbtn{
+	text-align: center;
+	position: relative;
+	margin-top: 50px;
+	right: 0px;
+	color: gray;
+    }
+    .rights{
+      right: 100px;
+      position: absolute;
+      margin-top: -100px;
+      font-size: small;
+    }
+}
+ @media screen and (max-width: 700px){ 
+     .row{
+         background-color: whitesmoke;
+         margin-top: 150px;
+     }
+}
